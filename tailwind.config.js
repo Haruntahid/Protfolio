@@ -14,6 +14,7 @@ module.exports = {
         "gold-color": "#ffcc6c",
         "bg-clr": "#34353a",
         "txt-clr": "#7d7e81",
+        "txt-white": "#fafafa",
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",

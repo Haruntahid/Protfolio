@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import profileImg from "../images/333656727_167009719446859_8833736956427744550_n-modified-removebg-preview.png";
+import profileImg from "../images/Profile picture.png";
 
 function Hero() {
   return (
@@ -11,7 +11,7 @@ function Hero() {
             I&apos;m{" "}
             <span className="capitalize text-gold-color">harun tahid</span>
           </h2>
-          <p className="text-2xl text-[#fafafa] mt-5">
+          <p className="text-2xl text-txt-white mt-5">
             Passionate Junior Web Developer
           </p>
           <button className="text-xl px-6 py-2 text-gold-color mt-5 rounded-lg bg-transparent border-2 border-gold-color">
@@ -21,6 +21,7 @@ function Hero() {
         <div>
           <Image
             src={profileImg}
+            className="rounded-full"
             width={600}
             height={500}
             alt="Profile Picture"
