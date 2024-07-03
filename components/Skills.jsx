@@ -80,7 +80,7 @@ function Skills() {
 
   return (
     <>
-      <div className="container mx-auto text-txt-white mt-20">
+      <div className="container mx-auto text-txt-white mt-24">
         <h2 className="text-5xl font-semibold mb-12 text-center">Skills</h2>
         <div className="grid grid-cols-6 gap-6">
           {skills.map((skill) => (
