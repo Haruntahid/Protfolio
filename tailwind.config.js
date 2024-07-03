@@ -7,9 +7,6 @@ module.exports = {
   ],
   theme: {
     extend: {
-      images: {
-        domains: ["https://ibb.co"], // Add the domain of the external image
-      },
       colors: {
         "gold-color": "#ffcc6c",
         "bg-clr": "#34353a",
