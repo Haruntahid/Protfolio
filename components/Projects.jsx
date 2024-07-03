@@ -9,12 +9,48 @@ import vixCareer from "../images/projects/Vix-Career Home.png";
 
 function Projects() {
   const projects = [
-    { id: 1, name: "Need Blood", slug: "", image: needBlood },
-    { id: 2, name: "Vix Career", slug: "", image: vixCareer },
-    { id: 3, name: "Vix Restaurant", slug: "", image: restutrant },
-    { id: 4, name: "Vix BookStore", slug: "", image: bookStore },
-    { id: 5, name: "Vix Ticket", slug: "", image: ticket },
-    { id: 6, name: "Vix Villa", slug: "", image: villa },
+    {
+      id: 1,
+      name: "Need Blood",
+      slug: "",
+      image: needBlood,
+      link: "https://need-blood-8367e.web.app",
+    },
+    {
+      id: 2,
+      name: "Vix Career",
+      slug: "",
+      image: vixCareer,
+      link: "https://vix-career.web.app/",
+    },
+    {
+      id: 3,
+      name: "Vix Restaurant",
+      slug: "",
+      image: restutrant,
+      link: "https://vix-restaurant.netlify.app/",
+    },
+    {
+      id: 4,
+      name: "Vix BookStore",
+      slug: "",
+      image: bookStore,
+      link: "https://vix-bookstore.netlify.app",
+    },
+    {
+      id: 5,
+      name: "Vix Ticket",
+      slug: "",
+      image: ticket,
+      link: "https://vix-ticket.netlify.app",
+    },
+    {
+      id: 6,
+      name: "Vix Villa",
+      slug: "",
+      image: villa,
+      link: "https://vix-villa.netlify.app",
+    },
   ];
   return (
     <>
@@ -30,7 +66,7 @@ function Projects() {
             >
               <div className="relative overflow-hidden h-96 w-full">
                 <div className="parallax">
-                  <a href="" target="_blank">
+                  <a href={project.link} target="_blank">
                     <Image
                       src={project.image}
                       layout="responsive"
