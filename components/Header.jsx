@@ -1,4 +1,5 @@
 import React from "react";
+import NavLinks from "./NavLinks";
 
 function Header() {
   return (
@@ -10,15 +11,18 @@ function Header() {
           </h2>
           <div>
             <ul className="flex text-xl space-x-14 text-txt-clr">
-              <li>Skills</li>
-              <li>Projects</li>
-              <li>Contact</li>
+              <NavLinks />
             </ul>
           </div>
           <div>
-            <button className="px-8 py-2 bg-gold-color rounded-full">
-              Resume
-            </button>
+            <a
+              href="https://drive.google.com/file/d/16Aok-gndVq9y-wpzuKQ10ur53Rek3Y1C/view?usp=sharing"
+              target="_blank"
+            >
+              <button className="px-8 py-2 bg-gold-color rounded-full">
+                Resume
+              </button>
+            </a>
           </div>
         </div>
       </div>

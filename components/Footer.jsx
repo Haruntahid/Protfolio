@@ -1,4 +1,5 @@
 import React from "react";
+import NavLinks from "./NavLinks";
 
 function Footer() {
   return (
@@ -9,9 +10,7 @@ function Footer() {
       </h2>
       <div>
         <ul className="flex justify-center mt-4 mb-6 text-xl space-x-14 text-txt-clr">
-          <li>Skills</li>
-          <li>Projects</li>
-          <li>Contact</li>
+          <NavLinks />
         </ul>
       </div>
       <p className="text-center text-txt-white pb-8">

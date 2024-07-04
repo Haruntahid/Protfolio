@@ -54,7 +54,7 @@ function Projects() {
   ];
   return (
     <>
-      <div className="container mx-auto mt-24">
+      <div className="container mx-auto mt-24" id="projects">
         <h2 className="text-5xl font-semibold mb-12 text-center text-txt-white">
           Projects
         </h2>
