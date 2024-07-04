@@ -7,13 +7,16 @@ function NavLinks() {
   const handleSetActiveSection = (section) => {
     setActiveSection(section);
   };
+
   return (
     <>
       <li>
         <a
           onClick={() => handleSetActiveSection("about")}
           href="#about"
-          className={activeSection === "about" ? "text-gold-color" : ""}
+          className={`${
+            activeSection === "about" ? "text-gold-color" : ""
+          } hover:text-gold-color`}
         >
           About
         </a>
@@ -22,7 +25,9 @@ function NavLinks() {
         <a
           onClick={() => handleSetActiveSection("skills")}
           href="#skills"
-          className={activeSection === "skills" ? "text-gold-color" : ""}
+          className={`${
+            activeSection === "skills" ? "text-gold-color" : ""
+          } hover:text-gold-color`}
         >
           Skills
         </a>
@@ -31,7 +36,9 @@ function NavLinks() {
         <a
           onClick={() => handleSetActiveSection("projects")}
           href="#projects"
-          className={activeSection === "projects" ? "text-gold-color" : ""}
+          className={`${
+            activeSection === "projects" ? "text-gold-color" : ""
+          } hover:text-gold-color`}
         >
           Projects
         </a>
@@ -40,7 +47,9 @@ function NavLinks() {
         <a
           onClick={() => handleSetActiveSection("contact")}
           href="#contact"
-          className={activeSection === "contact" ? "text-gold-color" : ""}
+          className={`${
+            activeSection === "contact" ? "text-gold-color" : ""
+          } hover:text-gold-color`}
         >
           Contact
         </a>

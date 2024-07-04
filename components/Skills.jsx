@@ -87,7 +87,7 @@ function Skills() {
         <h2 className="text-3xl lg:text-5xl font-semibold mb-8 lg:mb-12 text-center">
           Skills
         </h2>
-        <div className="grid grid-cols-3 lg:grid-cols-6 gap-3 lg:gap-6 px-3 lg:px-0">
+        <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-3 lg:gap-6 px-3 lg:px-0">
           {skills.map((skill) => (
             <div
               key={skill.id}

@@ -58,7 +58,7 @@ function Projects() {
         <h2 className="text-3xl lg:text-5xl font-semibold mb-8 lg:mb-12 text-center text-txt-white">
           Projects
         </h2>
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-5 lg:gap-8 px-3 lg:px-0">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 lg:gap-8 px-3 lg:px-0">
           {projects.map((project) => (
             <div
               className="p-2 lg:p-5 border-2 rounded-lg bg-[#3d3e42] border-gold-color"

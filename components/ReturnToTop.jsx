@@ -34,7 +34,7 @@ function ReturnToTop() {
       {isVisible && (
         <button
           onClick={scrollToTop}
-          className="fixed bottom-5 right-5 bg-gold-color text-bg-clr h-10 w-10 rounded-full shadow-lg font-black text-xl"
+          className="fixed bottom-5 right-5 bg-gold-color text-bg-clr lg:h-16 h-10 w-10 lg:w-16 rounded-full shadow-lg font-black text-2xl lg:text-3xl"
         >
           ↑
         </button>
