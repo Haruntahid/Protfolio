@@ -1,6 +1,9 @@
+"use client";
 import Image from "next/image";
 import React from "react";
 import profileImg from "../images/Profile picture.png";
+// import profileImage from "../images/JS(1).png";
+import Typewriter from "typewriter-effect";
 
 function Hero() {
   return (
@@ -13,10 +16,23 @@ function Hero() {
               <span className="capitalize text-gold-color">harun tahid</span>
             </h2>
             <p className="text-xl lg:text-2xl text-txt-white mt-2 lg:mt-5">
-              Passionate Junior Web Developer
+              Junior Web Developer
             </p>
+            <div className="flex gap-2 text-xl lg:text-3xl mt-2 lg:mt-5 text-txt-white">
+              {" "}
+              <p className="">I am Learning</p>
+              <span className="inline-block text-gold-color font-semibold">
+                <Typewriter
+                  options={{
+                    strings: ["TypeScript", "Next.js"],
+                    autoStart: true,
+                    loop: true,
+                  }}
+                />
+              </span>
+            </div>
             <a href="#contact">
-              <button className="lg:text-xl px-3 lg:px-6 py-2 text-gold-color mt-3 lg:mt-5 rounded-lg bg-transparent border-2 border-gold-color">
+              <button className="lg:text-xl px-3 lg:px-6 py-2 text-gold-color mt-3 lg:mt-10 rounded-lg bg-transparent border-2 border-gold-color">
                 Contact Me
               </button>
             </a>
