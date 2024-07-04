@@ -10,7 +10,7 @@ function About() {
         <h2 className="text-3xl lg:text-5xl font-semibold mb-8 lg:mb-12">
           About
         </h2>
-        <p className="text-xl">
+        <p className="lg:text-xl">
           <span className="inline-block items-center w-20 h-1 bg-gold-color mr-2"></span>
           I am Harun Tahid, a dedicated Junior Web Developer from Bangladesh.
           With a meticulous eye for detail and a commitment to creating
