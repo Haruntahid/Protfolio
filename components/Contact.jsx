@@ -10,36 +10,43 @@ import { FaLocationDot } from "react-icons/fa6";
 
 function Contact() {
   return (
-    <div className="container mx-auto text-txt-white mt-24" id="contact">
-      <h2 className="text-5xl font-semibold mb-12 text-center">Contact Me</h2>
-      <div className="flex justify-between items-center bg-[#3d3e42] rounded-lg p-10">
+    <div
+      className="container mx-auto text-txt-white mt-12 lg:mt-24 px-3 lg:px-0"
+      id="contact"
+    >
+      <h2 className="text-3xl lg:text-5xl font-semibold mb-8 lg:mb-12 text-center">
+        Contact Me
+      </h2>
+      <div className="flex flex-col lg:flex-row justify-between gap-12 lg:gap-0 items-center bg-[#3d3e42] rounded-lg p-5 lg:p-10">
         {/* first section */}
-        <div>
-          <div className="flex items-center gap-2 bg-bg-clr px-5 py-2 rounded-full mt-5">
+        <div className="space-y-5">
+          <div className="flex items-center gap-2 bg-bg-clr px-5 py-2 rounded-full mx-auto lg:mx-0">
             <SiGmail />
             <p className="text-gold-color">tahidtaha997@gmail.com</p>
           </div>
-          <div className="flex items-center w-fit gap-2 bg-bg-clr px-5 py-2 rounded-full mt-5">
+          <div className="flex items-center w-fit gap-2 bg-bg-clr px-5 py-2 rounded-full mx-auto lg:mx-0">
             <FaPhone />
             <p className="text-gold-color">+880 1676 782636</p>
           </div>
-          <div className="flex items-center  w-fit gap-2 bg-bg-clr px-5 py-2 rounded-full mt-5">
+          <div className="flex items-center  w-fit gap-2 bg-bg-clr px-5 py-2 rounded-full mx-auto lg:mx-0">
             <FaLocationDot />
             <p className="text-gold-color">Dinajpur,Bangladesh</p>
           </div>
         </div>
         {/* middle section */}
         <div className="text-center space-y-3">
-          <h2 className="text-5xl font-semibold text-gold-color">
+          <h2 className="text-4xl lg:text-5xl font-semibold text-gold-color">
             Harun Tahid
           </h2>
-          <p className="text-2xl tracking-wider">Junior Web Developer</p>
+          <p className="text-xl lg:text-2xl tracking-wider">
+            Junior Web Developer
+          </p>
           <div>
             <a
               href="https://drive.google.com/file/d/16Aok-gndVq9y-wpzuKQ10ur53Rek3Y1C/view?usp=sharing"
               target="_blank"
             >
-              <button className="px-12 mt-5 py-2 text-black text-xl bg-gold-color rounded-full">
+              <button className="px-8 lg:px-12 mt-3 lg:mt-5 py-2 text-black lg:text-xl bg-gold-color rounded-full">
                 Resume
               </button>
             </a>
@@ -47,7 +54,7 @@ function Contact() {
         </div>
         {/* end section */}
 
-        <div className="flex gap-4">
+        <div className="flex gap-3 lg:gap-4">
           <a
             href="https://www.facebook.com/Haruntaha997/"
             target="_blank"

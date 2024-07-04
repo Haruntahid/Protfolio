@@ -80,13 +80,18 @@ function Skills() {
 
   return (
     <>
-      <div className="container mx-auto text-txt-white mt-24" id="skills">
-        <h2 className="text-5xl font-semibold mb-12 text-center">Skills</h2>
-        <div className="grid grid-cols-6 gap-6">
+      <div
+        className="container mx-auto text-txt-white mt-12 lg:mt-24"
+        id="skills"
+      >
+        <h2 className="text-3xl lg:text-5xl font-semibold mb-8 lg:mb-12 text-center">
+          Skills
+        </h2>
+        <div className="grid grid-cols-3 lg:grid-cols-6 gap-3 lg:gap-6 px-3 lg:px-0">
           {skills.map((skill) => (
             <div
               key={skill.id}
-              className="p-8 bg-[#3d3e42] flex flex-col items-center justify-center rounded-lg transition duration-2000 transform hover:bg-[#cca35c] hover:scale-105"
+              className="p-3 lg:p-8 bg-[#3d3e42] flex flex-col items-center justify-center rounded-lg transition duration-2000 transform hover:bg-[#cca35c] hover:scale-105"
               style={{ transition: "background-color 1s, transform 1s" }}
             >
               <Image
@@ -94,8 +99,11 @@ function Skills() {
                 alt={`Logo of ${skill.name}`}
                 width={100}
                 height={100}
+                layout="responsive"
               />
-              <p className="mt-6 text-2xl font-semibold">{skill.name}</p>
+              <p className="mt-3 lg:mt-6 lg:text-2xl font-semibold">
+                {skill.name}
+              </p>
             </div>
           ))}
         </div>

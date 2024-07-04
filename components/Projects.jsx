@@ -54,17 +54,17 @@ function Projects() {
   ];
   return (
     <>
-      <div className="container mx-auto mt-24" id="projects">
-        <h2 className="text-5xl font-semibold mb-12 text-center text-txt-white">
+      <div className="container mx-auto mt-12 lg:mt-24" id="projects">
+        <h2 className="text-3xl lg:text-5xl font-semibold mb-8 lg:mb-12 text-center text-txt-white">
           Projects
         </h2>
-        <div className="grid grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-5 lg:gap-8 px-3 lg:px-0">
           {projects.map((project) => (
             <div
-              className="p-5 border-2 rounded-lg bg-[#3d3e42] border-gold-color"
+              className="p-2 lg:p-5 border-2 rounded-lg bg-[#3d3e42] border-gold-color"
               key={project.id}
             >
-              <div className="relative overflow-hidden h-96 w-full">
+              <div className="relative overflow-hidden h-64 lg:h-96 w-full">
                 <div className="parallax">
                   <a href={project.link} target="_blank">
                     <Image
