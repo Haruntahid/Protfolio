@@ -16,7 +16,7 @@ function Hero() {
               <span className="capitalize text-gold-color">harun tahid</span>
             </h2>
             <p className="text-xl lg:text-2xl text-txt-white mt-2 lg:mt-5">
-              Junior Web Developer
+              Junior Software Developer
             </p>
             <div className="flex gap-2 text-xl lg:text-3xl mt-2 lg:mt-5 text-txt-white">
               {" "}
@@ -24,7 +24,7 @@ function Hero() {
               <span className="inline-block text-gold-color font-semibold">
                 <Typewriter
                   options={{
-                    strings: ["TypeScript", "Next.js"],
+                    strings: ["Docker", "Microservices", "GraphQL"],
                     autoStart: true,
                     loop: true,
                   }}

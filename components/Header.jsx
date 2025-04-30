@@ -27,7 +27,7 @@ function Header() {
 
           <div className="hidden lg:block">
             <a
-              href="https://drive.google.com/file/d/1z0NI5iDgvpOf-kYF9pv_EeWBRGyJykGA/view"
+              href="https://drive.google.com/file/d/19n7EwZEktbFraixFFC-O4fX30qvBMrQU/view"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -83,7 +83,7 @@ function Header() {
             {/* Resume button */}
             <div className="flex justify-center mt-3">
               <a
-                href="https://drive.google.com/file/d/1z0NI5iDgvpOf-kYF9pv_EeWBRGyJykGA/view"
+                href="https://drive.google.com/file/d/19n7EwZEktbFraixFFC-O4fX30qvBMrQU/view"
                 target="_blank"
               >
                 <button className="px-5 lg:px-8 py-1 lg:py-2 lg:text-xl bg-gold-color rounded-full block">

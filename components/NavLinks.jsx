@@ -23,6 +23,17 @@ function NavLinks() {
       </li>
       <li>
         <a
+          onClick={() => handleSetActiveSection("experience")}
+          href="#experience"
+          className={`${
+            activeSection === "experience" ? "text-gold-color" : ""
+          } hover:text-gold-color`}
+        >
+          Experience
+        </a>
+      </li>
+      <li>
+        <a
           onClick={() => handleSetActiveSection("skills")}
           href="#skills"
           className={`${

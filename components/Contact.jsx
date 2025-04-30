@@ -66,7 +66,7 @@ function Contact() {
           </p>
           <div>
             <a
-              href="https://drive.google.com/file/d/1z0NI5iDgvpOf-kYF9pv_EeWBRGyJykGA/view"
+              href="https://drive.google.com/file/d/19n7EwZEktbFraixFFC-O4fX30qvBMrQU/view"
               target="_blank"
               rel="noopener noreferrer"
             >
